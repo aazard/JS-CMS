@@ -27,7 +27,9 @@ Mostly MIT, respecting sources licenses:
 #### Use These:
 ![JS-CMS](https://user-images.githubusercontent.com/45321972/188326105-0573eae6-1d8c-4a75-9105-d00338b77957.png)
 #### Get This:
-![](https://zonelets.net/images/tut_livepage.PNG)
+![IMP-Zonelet-Result-home](https://user-images.githubusercontent.com/45321972/188330095-25d69d09-34f1-47f7-820c-91b2ffc9ce44.png)
+#### &
+![IMP-Zonelet-Result](https://user-images.githubusercontent.com/45321972/188330030-8cd3dd0b-9c3f-424e-b149-b3b29a205d54.png)
 ## Intro:
 I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mordern" CMS's! Markdown & Python are more my speed. 
 - But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
