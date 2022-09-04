@@ -1,4 +1,4 @@
-# JS-CMS - The Javascript CMS 
+# JS-CMS - The Javascript CMS, WITH THEMES!
 I dont really know HTML/CSS that well, nevermind JS (javascript)... 
 But I was able to cobble this Frankenstien together
 ## Why?
