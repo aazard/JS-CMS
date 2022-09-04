@@ -33,7 +33,7 @@ There are a few, but for the target users, <b>HTML/CSS learners looking to uploa
 
 When you load IMP! Locally, it opens up an editor, where you can enter or import your text, setup SEO tags and custom CSS. When the very same page is served over http, user gets a light, **static** HTML. Page does not require Java Script to be viewed, it's just plain HTML.
 
-![](https://user-images.githubusercontent.com/45321972/188300558-fb2126b3-2846-4705-b561-bf2046bd86f5.png))
+![](https://user-images.githubusercontent.com/45321972/188300558-fb2126b3-2846-4705-b561-bf2046bd86f5.png)
 
 **System requirements**
 
