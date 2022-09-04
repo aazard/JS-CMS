@@ -1,0 +1,252 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: #0245d7;
+  background-image: url('/images/bg_deepBlue.jpg');
+	background-position: top;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  width: 100%;
+}
+
+p {
+  line-height: 1.6em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
+}
+#content li {
+  line-height: 1.6em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
+}
+
+em {
+  color: #1f1f1f;
+  background-color: #ffd8ed; 
+}
+
+.pro {
+  font-style: normal;
+  font-weight: bold;
+  background-color: #97f59d;
+  padding: 0 0.2em;
+  color: #1f5823;
+  margin-right: 0.2em;
+}
+.con {
+  font-style: normal;
+  font-weight: bold;
+  background-color: #ffb8b8;
+  padding: 0 0.2em;
+  color: #843838;
+  margin-right: 0.2em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.bordered {
+  border: 1px solid #AAA;
+}
+.right {
+  float: right;
+  margin-left: 1em;
+}
+.left {
+  float: left;
+  margin-right: 1em;
+}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .small {
+    max-width: 60%;
+    height: auto;
+  }
+}
+.caption {
+  margin-top: 0;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+a:hover { 
+  background-color: #c9f1fe;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #3c445f;
+  font-family: "Palatino Linotype", Palatino, Baskerville, "Baskerville Old Face", sans-serif;
+}
+
+.faq {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: #5388ad;
+}
+
+.answer {
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+
+#content .contents li {
+  margin-bottom: 0.8em;
+  line-height: 1.3em;
+}
+#content .contents li a {
+  text-decoration: none;
+}
+
+.contents {
+  position:relative;
+}
+
+/*#CONTAINER is the rectangle that contains everything but the background!*/
+#container {
+  margin: 3em auto;
+  width: 90%;
+	max-width: 700px;
+	background-color: white;
+  color: #555; 
+  outline-color: #CCC;
+  outline-style: ridge;
+  outline-width: 4px;
+  outline-offset: 0;
+}
+
+#content {
+  padding: 10px 5% 20px 5%;
+}
+
+
+/*HEADER STYLE*/
+#header {
+  position: relative;
+  background-color: #3c445f;
+  padding: 0 5%;
+  border-color: #CCC;
+  border-style: ridge;
+  border-width: 0 0 4px 0;
+}
+#header ul {
+  list-style-type: none;
+  padding: 0.5em 0;
+  margin: 0;
+}
+#header li {
+  font-size: 1.2em;
+  display: inline-block;
+  margin-right: 1.5em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+#header li a {
+  color: white;
+  font-family: "Palatino Linotype", Palatino, Baskerville, "Baskerville Old Face", serif;
+  text-decoration: none;
+  background-color: inherit;
+}
+#header li a:hover {
+  text-decoration: underline;
+}
+
+/*Floating Logo*/
+#header:after {
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    content: '';
+    background-image: url('/images/zoneletslogo.png');
+    background-repeat: no-repeat;
+    pointer-events: none;
+    width: 48px;
+    height: 48px;
+    overflow:hidden;
+}
+
+/*POST LIST STYLE*/
+#postlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+}
+#recentpostlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+}
+.moreposts {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+
+/*NEXT AND PREVIOUS LINKS STYLE*/
+#nextprev {
+  text-align: center;
+  margin-top: 1.4em;
+}
+
+/*DISQUS STYLE*/
+#disqus_thread {
+  margin-top: 1.6em;
+}
+
+/*FOOTER STYLE*/
+#footer {
+  font-size: 0.8em;
+  padding: 0 5% 10px 5%;
+}
+
+/*THEME PICKER STYLE*/
+#themepicker {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 15px 15px;
+}
+
+@media only screen and (min-width: 500px) {
+  #themepicker {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+.themegriditem {
+  outline: 1px solid #AAA;
+  box-shadow: 0 2px 4px 0 #555;
+  display: block;
+  margin: 0 auto;
+}
+
+.themegriditem img {
+  margin: 0;
+}
+
+/*Responsive Youtube Embed*/
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

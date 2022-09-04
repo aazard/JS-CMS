@@ -1,0 +1,164 @@
+/*Welcome to the script file! Your 1st time here, you should update
+  the basic info section to include your name and website/social 
+  media link (if desired). Most of the time, you will just come
+  here to update the posts array. However, you can also edit or
+  add your own scripts to do whatever you like!*/
+
+//TABLE OF CONTENTS
+  // 1. Basic Info
+  // 2. Posts Array
+  // 3. Creating HTML Sections to Be Inserted (Header, Footer, etc)
+  // 4. Inserting the Sections Into our Actual HTML Pages
+
+//-----------------------------
+
+//==[ 1. BASIC INFO ]==
+
+let blogName = "Zonelets.net";
+let authorName = "Marina Kittaka";
+let authorLink = "https://twitter.com/even_kei";
+
+//-----------------------------
+
+//==[ 2. POSTS ARRAY ]==
+
+/*Each time you make a new post, add the filepath here at the top of postsArray.
+  This will cause all the right links to appear and work.
+  NOTE: It's important to follow this exact naming convention, because the scripts
+  below are expecting it ( 'posts/YYYY-MM-DD-Title-of-Your-Post.html', ). You can
+  alter the scripts if you want to use a different naming convention*/
+
+let postsArray = [
+[ "posts/2020-11-08-Quick-Start-Guide.html" ],
+[ "posts/2020-11-09-Frequently-Asked-Questions.html" ],
+[ "posts/2020-11-08-Comparison-to-Other-Blogging-Methods.html" ],
+[ "posts/2020-11-08-Theme-Gallery.html" ],
+[ "posts/2020-11-09-Dusty-Tome.html" ],
+[ "posts/2020-11-09-Spring-Sweetheart.html" ],
+[ "posts/2020-11-09-Deep-Blue.html" ],
+[ "posts/2020-11-09-Fingerless-Gloves.html" ],
+[ "posts/2020-11-09-Weatherbeaten.html" ],
+[ "posts/2020-11-09-Y2K.html" ],
+[ "posts/2020-11-09-Nude.html" ],
+[ "posts/2020-11-10-Hiking-Shoes.html" ],
+[ "posts/2020-11-10-Purple-Paper.html" ] ];
+
+//-----------------------------
+
+//==[ 3. CREATING HTML SECTIONS TO BE INSERTED ]==
+
+//Write the Header HTML, a series of list items containing links.
+let headerHTML = '<ul> <li><a href="/index.html">Home</a></li>' + 
+'<li><a href="/posts/2020-11-08-Quick-Start-Guide.html">Quick Start</a></li>' +
+'<li><a href="/posts/2020-11-09-Frequently-Asked-Questions.html">FAQ</a></li>' +
+'<li><a href="/posts/2020-11-08-Comparison-to-Other-Blogging-Methods.html">Compare</a></li>' +
+'<li><a href="/posts/2020-11-08-Theme-Gallery.html">Themes</a></li>' +
+'<li><a href="/archive.html">Archive</a></li>' +
+'<li><a href="/about.html">About</a></li> </ul>';
+
+//Write the Footer HTML, which has information about the blog.
+let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.itch.io/zonelets'>Zonelets</a>, and hosted by <a href='https://neocities.org/'>Neocities!</a></br>Contact: <a href='mailto:zonelets.blogs@gmail.com'>zonelets.blogs@gmail.com</a></p>";
+
+//Generate the Post List HTML, which will be shown on the "Archive" page.
+let postListHTML = "<ul>";
+postsArray.forEach((href) => {
+  postListHTML += '<li><a href="/'+ href[0] +'">' + href[0].slice(6,16) + " \u00BB " + href[0].slice(17,-5).replace(/-/g," ") + '</a></li>';
+});
+postListHTML += "</ul>";
+
+//Generate the Recent Post List HTML, which can be shown on the home page (or wherever you want!)
+let recentPostsCutoff = 4; //Hey YOU! Change this number to set how many recent posts to show.
+let recentPostListHTML = "<h2>Recent Posts:</h2><ul>";
+let numberOfRecentPosts = Math.min( recentPostsCutoff, postsArray.length );
+for ( let i = 0; i < numberOfRecentPosts; i++ ) {
+  recentPostListHTML += '<li><a href="/'+ postsArray[i][0] +'">' + postsArray[i][0].slice(6,16) + " \u00BB " + postsArray[i][0].slice(17,-5).replace(/-/g," ") + '</a></li>';
+}
+/*If you've written more posts than can fit in the Recent Posts List,
+  then we'll add a link to the archive so readers can find the rest of
+  your wonderful posts and be filled with knowledge.*/
+if ( postsArray.length > recentPostsCutoff ) {
+  recentPostListHTML += '<li class="moreposts"><a href=/archive.html>\u00BB more posts</a></li></ul>';
+}
+
+//Generate the Next and Previous Post Links HTML
+let url = window.location.pathname;
+let currentFilename = url.substring(url.lastIndexOf('posts/'));
+
+let currentIndex = -1;
+let i;
+for (i = 0; i < postsArray.length; i++) {
+  if ( "/" + postsArray[i][0] === url ) {
+    currentIndex = i;
+  }
+}
+
+let nextprevHTML = "";
+let nextlink = "";
+let prevlink = "";
+
+/*If you're on the newest blog post, there's no point to
+ a "Next Post" link, right? And vice versa with the oldest 
+ post! That's what the following code handles.*/
+if ( postsArray.length < 2 ) {
+  nextprevHTML = '<a href="/index.html">Home</a>';
+} else if ( currentIndex === 0 ) {
+  prevlink = postsArray[currentIndex + 1][0];
+  nextprevHTML = '<a href="/index.html">Home</a> | <a href="/'+ prevlink +'">Previous Post \u00BB</a>';
+} else if ( currentIndex === postsArray.length - 1 ) {
+  nextlink = postsArray[currentIndex - 1][0];
+  nextprevHTML = '<a href="/'+ nextlink +'">\u00AB Next Post</a> | <a href="/index.html">Home</a>';
+} else if ( 0 < currentIndex && currentIndex < postsArray.length - 1 ) {
+  nextlink = postsArray[currentIndex - 1][0];
+  prevlink = postsArray[currentIndex + 1][0];
+  nextprevHTML = '<a href="/'+ nextlink +'">\u00AB Next Post</a> | <a href="/index.html">Home</a> | <a href="/'+ prevlink +'">Previous Post \u00BB</a>';
+}
+
+//Convert the filename to readable post name. E.g. changes "2020-10-10-My-First-Post.html" to "My First Post"
+//Or pass along the "special characters" version of the title if one exists
+let postTitle = "";
+if ( currentIndex >= 0 ) {
+  if ( postsArray[currentIndex].length > 1 ) {
+    postTitle = decodeURI(postsArray[currentIndex][1]);
+  } else {
+    postTitle = currentFilename.slice(17,-5).replace(/-/g," ");
+  }
+}
+
+//-----------------------------
+
+//==[ 4. INSERTING THE SECTIONS INTO OUR ACTUAL HTML PAGES ]==
+
+/*Here we check if each relevant div exists. If so, we inject the correct HTML!
+  NOTE: All of these sections are optional. For example, if there's 
+  one particular blog post where we don't want the footer to appear, 
+  we simply don't put a <div id="footer"> on that page.*/
+
+if (document.getElementById("nextprev")) {
+  document.getElementById("nextprev").innerHTML = nextprevHTML;
+}
+if (document.getElementById("postlistdiv")) {
+  document.getElementById("postlistdiv").innerHTML = postListHTML;
+}
+if (document.getElementById("recentpostlistdiv")) {
+  document.getElementById("recentpostlistdiv").innerHTML = recentPostListHTML;
+}
+if (!document.getElementById("themeHeader")) {//FOR ZONELETS.NET REMOVE FROM NORMAL
+  if (document.getElementById("header")) {
+    document.getElementById("header").innerHTML = headerHTML;
+  }
+}
+if (document.getElementById("blogTitleH1")) {
+  document.getElementById("blogTitleH1").innerHTML = blogTitle;
+}
+if (document.getElementById("postTitleH1")) {
+  document.getElementById("postTitleH1").innerHTML = postTitle;
+}
+if (document.getElementById("footer")) {
+  document.getElementById("footer").innerHTML = footerHTML;
+}
+
+//Dynamically set the HTML <title> tag from the file name
+//The <title> tag content is what shows up on browser tabs
+if (document.title === "Blog Post") {
+  document.title = postTitle;
+}
