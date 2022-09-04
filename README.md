@@ -29,7 +29,7 @@ I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mord
 - "Theme" support via custom CSS linking per page (or as default via style.css). There are just under 15 "themes", currently.
 ### On Neocities (as tested)
 - Fully supports add in (it doesnt have any currently) json (& geojson)/xml (& kml), flat file, databases.
-- For best results, of "on host files", please use webp (& svg, ico) images, gif videos & MIDI (mid & midi) audio files.
+- For best results, of "on host files", please use webp (& svg, ico) images, gif videos & MIDI (mid/midi) audio files.
 - [Soundcloud](http://soundcloud.com/)/Etc. & [Youtube](http://youtube.com/)/Etc. to embed audio/video in to your web page.
 - For encrypted files use: pgp & asc
 
