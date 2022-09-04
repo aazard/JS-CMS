@@ -14,12 +14,12 @@ I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mord
 - Only "script.js" needs to "live" online (by uploaded with site's files, to host).
 
 ### Plans
-- Add code to "imp.js", so it automatically updates the "post array" of the "script.js" file, making the process more seemless
+- Add code to "imp.js", so it automatically updates the "post array" of the "script.js" file,... <b><u>IS THIS EVEN POSSIBLE?</u></b>
 - Change the "View CSS location" so its a "drop down" menu, that populates from styles folder, with option for manual text entry of location
-- Add a "more direct" editor (word processor like), as a "non" markdown or html option 
+- Add a "more direct" editor (word processor like), as a "non" markdown or html option (BUT existing editor is better learning tool)
 
 # Why Do this?
-Well... Have you ever had a host that didnt support PHP/databases (A POPULAR & TARGET example would be Neocities)?
+Well, Have you ever had a host that didnt support PHP/databases <b>(A POPULAR & TARGET example would be Neocities)</b>?
 
 Where you couldnt run Wonder CMS, let alone Grav CMS... forget about WordPress CMS?
 - Its easy: ONE TINY "script.js" edit in notepad per post (so its "codeless") & CSS linking is "hand held".
