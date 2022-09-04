@@ -7,7 +7,7 @@
 - Issue matching IMP!'s footer to Zonelet's footer, have moved effected content to header (it works) <b>until I solve</b>.
 #### Authour/Maintainer 
 - THIS PROJECCT IS TWO NOTCHES OVER MY CURRENT SKILL LEVEL :sweat_smile: (I started with markdown, and worked up)
-- Thank you: Harvard OCW CS50AP (CS50: t/s/x). And to Scratch/Code Monkey, you really helped me "see" what was going on
+- Thank you: Harvard OCW CS50AP (CS50: t/s/x), & to Scratch/Code Monkey, really helped me "see" what was going on
 - Its also my "1st real", public, coding project <b>(& I'm 41)</b>. Evertthing else I have done was art or "kit packaging" 
 #### CLONE REPO FOR MOST CURRENT VERSION!
 ## License
