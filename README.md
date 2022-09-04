@@ -1,15 +1,24 @@
+## JS-CMS - Project Status Sticky 
+
+#### WIP (Work In Progress) WARNING: I am editing the html files from Zonelet to be 100% inline/compatible with IMP!
+- DONE: Index.html, Backup-Index.html, 2020-11-10-Post-Template.html & Backup-Post-Template.html.
+- <b>NOT DONE</b>: I will update the guide to fit my edits, so its a simple/easy process to edit & add menu entry.
+
+#### CLONE REPO FOR MOST CURRENT VERSION!
+
 # JS-CMS - The Javascript CMS, WITH THEMES!
-## CLONE REPO FOR MOST CURRENT VERSION!
 I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mordern" CMS's!
 - Markdown & Python are more my speed... 
 - But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
 - Made with two (2) ".js" files, "imp.js" (The "CMS") & "script.js" (The "Menu Engine").
 - Only "script.js" needs to "live" online (by uploaded with site's files, to host).
+
 ### Plans
 - Add code to "imp.js", so it automatically updates the "post array" of the "script.js" file, making the process more seemless
 - Change the "View CSS location" so its a "drop down" menu, that populates from styles folder, with option for manual text entry of location
 - Add a "more direct" editor (word processor like), as a "non" markdown or html option 
-## Why?
+
+# Why Do this?
 Well... Have you ever had a host that didnt support PHP/databases (A POPULAR & TARGET example would be Neocities)?
 
 Where you couldnt run Wonder CMS, let alone Grav CMS... forget about WordPress CMS?
@@ -18,10 +27,12 @@ Where you couldnt run Wonder CMS, let alone Grav CMS... forget about WordPress C
 - For beginners: This beats "free-hand" HTML/CSS, for ease of entry & speed, at least.
 
 This is also a better learning tool than a "fiddle" as it produces IRL results, on Neocities/Etc.
+
 ## What About Other "Common" Options?
 There are a few, but for the target users, <b>HTML/CSS learners looking to upload to Neocities</b>, they arnt as attractive or useful, IMHO.
 - Publii CMS is over all more cmplicated (Desktop install, files may need "reordering", depending on target web host).
 - Netlify CMS  has a complex setup (Git/Bitbucket Backend'ed...for beginners its abit much).
+
 ## Built with:
 ### Zonelet Javascript "Blogging Engine" Menu
 - Home: https://zonelets.net/index.html
@@ -30,14 +41,9 @@ There are a few, but for the target users, <b>HTML/CSS learners looking to uploa
 ### IMP! "It's My Page!" Javascript CMS
 - Home/Download: https://github.com/girobusan/imp
 
-### ...........................
-# **Getting Started With Zonelets & IMP**
-## I am "editing" the HTML files from Zonelet to be 100% inline with IMP!
-- DONE: Index.html, Backup-Index.html, 2020-11-10-Post-Template.html & Backup-Post-Template.html.
-- <b>NOT DONE</b>: I will update the guide to fit my edits, so its a simple/easy process to edit & add menu entry.
-
-### ...........................
-
+### **Getting Started With Zonelets & IMP** ... OR:
+![](https://149455152.v2.pressablecdn.com/wp-content/uploads/2013/10/code-monkey-save-world-featured.jpg)
+Ok.. saving the world might be a little exaggerated.. BUT, "#Learn to code"
 ## **Getting Started With IMP!**
 
 **How it works**
