@@ -60,7 +60,7 @@ To get started with Zonelets, follow the text on this site or the video tutorial
 
 https://user-images.githubusercontent.com/45321972/188299784-72a292a4-71eb-403b-b787-fb88dae9d3dc.mp4
 
-**Quick Start Guide**
+### **Quick Start Guide**
 
 **Contents:**
 
