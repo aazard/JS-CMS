@@ -23,11 +23,12 @@ There are a few, but for the target users, <b>HTML/CSS learners looking to uploa
 ### IMP! "It's My Page!" Javascript CMS
 - Home/Download: https://github.com/girobusan/imp
 
-...........................
+### ...........................
 # **Getting Started With Zonelets & IMP**
 ## I am "editing" the HTML files from Zonelet to be 100% inline with IMP!
 - So far: the Index.html, Backup-Index.html, 2020-11-10-Post-Template.html & Backup-Post-Template.html, <b>ARE DONE</b>
-...........................
+
+### ...........................
 
 ## **Getting Started With IMP!**
 
