@@ -11,7 +11,7 @@ Mostly MIT, respecting sources licenses:
 - CC BY-CA - IMP!'s default theme based on Cutenberg (which is licensed under CC BY-CA)
 ---
 ---
-# JS-CMS - The Low-Fi, Client-Side, Javascript CMS, WITH THEMES!
+# JS-CMS - The Low-Fi, Client-Side, Javascript CMS, With CSS Themes!
 I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mordern" CMS's!
 - Markdown & Python are more my speed... 
 - But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
