@@ -1,7 +1,7 @@
 # This is the work of others, stiched together/edited by me
 ## JS-CMS - Project Status Sticky 
 #### WIP (Work In Progress) WARNING: I am editing html files from Zonelet to be 100% inline/compatible with IMP!
-- DONE: Index.html, Backup-Index.html, 2020-11-10-Post-Template.html & Backup-Post-Template.html.
+- DONE: index.html, Backup-index.html, 2020-11-10-Post-Template.html & Backup-Post-Template.html.
 - <b>NOT DONE</b>: Update the guide, to fit my edits. So its a simple/easy process to edit & add menu entry.
 - <b>NOT DONE</b>: about.html, archive.html, not-found.html, & 2020-11-10-HTML-cheat-sheet.html.
 - <b>NOT DONE</b>: Full, tested, CSS "Themes", combined from both IMP! & Zonelet.
