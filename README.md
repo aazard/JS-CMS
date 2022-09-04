@@ -1,6 +1,6 @@
 # JS-CMS - The Javascript CMS, WITH THEMES!
 I dont really know HTML/CSS that well, nevermind JS (javascript)...
-- Python is more my speed... But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
+- Markdown & Python is more my speed... But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
 ## Why?
 Well... Have you ever had a host that didnt support PHP/databases (A POPULAR & TARGET example would be Neocities)?
 
