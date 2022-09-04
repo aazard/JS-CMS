@@ -5,8 +5,8 @@
 - <b>NOT DONE</b>: I will update the guide to fit my edits, so its a simple/easy process to edit & add menu entry.
 #### CLONE REPO FOR MOST CURRENT VERSION!
 ## License
-Mostly GPL3, respecting sources licenses: 
-- Zonelets is Unlicense licensed 
+Mostly MIT, respecting sources licenses: 
+- Zonelets is MIT licensed 
 - IMP! is MIT licensed, except:
 - CC BY-CA - IMP!'s default theme based on Cutenberg (which is licensed under CC BY-CA)
 ---
