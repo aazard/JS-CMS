@@ -13,6 +13,7 @@
 - THIS PROJECCT IS TWO NOTCHES OVER MY CURRENT SKILL LEVEL :sweat_smile: (I started with markdown, & worked up).
 - Thank you: Harvard OCW CS50AP (CS50: t/s/x), & to Scratch/Code Monkey, helping me "see" what was going on.
 - Its also my "1st real", public, coding project <b>(& I'm 41)</b>. Evertthing else I have done was art or "kit packaging".
+- [My Neocities Site](https://aazard.neocities.org)
 #### CLONE REPO FOR MOST CURRENT VERSION!
 ## License
 Mostly MIT, respecting sources licenses: 
