@@ -15,7 +15,7 @@ Mostly MIT, respecting sources licenses:
 I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mordern" CMS's! Markdown & Python are more my speed. 
 - But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
 - Made with two (2) ".js" files, "imp.js" (The, single page, "Client-side" CMS) & "script.js" (The "Blogging Engine", powering on menus/etc.).
-- Only "script.js" needs to "live" online ("Server-side", by uploaded with site's files, to host). As above, its the "Blogging Engine" that powers Menus/Etc.
+- Only "script.js" needs to "live" online ("Server-side", by uploaded with site's files, to host). Remember: As above, its powers Menus/Etc.
 - "Theme" support via custom CSS linking per page (or as default via style.css). There are just under 15 "themes", currently.
 
 ### Plans
@@ -51,8 +51,7 @@ There are a few, but for the target users, <b>HTML/CSS learners looking to uploa
 ![](https://149455152.v2.pressablecdn.com/wp-content/uploads/2013/10/code-monkey-save-world-featured.jpg)
 <i>Caption: Ok.. saving the world might be a little exaggerated.. BUT, <b>"#Learn to code"</b></i>
 
----
----
+------
 # **Getting Started With IMP!**
 
 **How it works**
