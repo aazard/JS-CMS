@@ -8,7 +8,7 @@
 - THIS PROJECCT IS TWO NOTCHES OVER MY CURRENT SKILL LEVEL :sweat_smile:
 #### CLONE REPO FOR MOST CURRENT VERSION!
 ## License
-Mostly MIT, respecting sources licenses: 
+Mostly MIT, respecting sources licenses: For ALL, legal, private uses, JS-CMS is FOSS 
 - Zonelets is MIT licensed 
 - IMP! is MIT licensed, except:
 - CC BY-CA - IMP!'s default theme based on Cutenberg (which is licensed under CC BY-CA)
