@@ -20,8 +20,8 @@ I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mord
 
 ### Plans
 - Add code to "imp.js", so it automatically updates the "post array" of the "script.js" file,... <b><u>IS THIS EVEN POSSIBLE?</u></b>
-- Change the "View CSS location" so its a "drop down" menu, that populates from styles folder, with option for manual text entry of location
-- Add a "more direct" editor (word processor like), as a "non" markdown or html option (BUT existing editor is better learning tool)
+- Change "View CSS location" so its a "drop down", that populates from styles folder, with option for manual text entry of location
+- Password protect imp.js with [JavaScript Kit Encrypted Password Generator](http://javascriptkit.com/epassword/index.htm)
 
 # Why Do this?
 Well, Have you ever had a host that didnt support PHP/databases <b>(A POPULAR & TARGET example would be Neocities)</b>?
