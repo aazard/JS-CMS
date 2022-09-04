@@ -12,8 +12,7 @@ Mostly MIT, respecting sources licenses:
 ---
 ---
 # JS-CMS - The Low-Fi, Client-Side, Javascript CMS, With CSS Themes!
-I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mordern" CMS's!
-- Markdown & Python are more my speed... 
+I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mordern" CMS's! Markdown & Python are more my speed. 
 - But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
 - Made with two (2) ".js" files, "imp.js" (The "CMS") & "script.js" (The "Menu Engine").
 - Only "script.js" needs to "live" online (by uploaded with site's files, to host). Its the "Blogging Engine" that powers Menus/Etc.
