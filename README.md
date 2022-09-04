@@ -26,7 +26,8 @@ There are a few, but for the target users, <b>HTML/CSS learners looking to uploa
 ### ...........................
 # **Getting Started With Zonelets & IMP**
 ## I am "editing" the HTML files from Zonelet to be 100% inline with IMP!
-- So far: the Index.html, Backup-Index.html, 2020-11-10-Post-Template.html & Backup-Post-Template.html, <b>ARE DONE</b>
+- DONE: Index.html, Backup-Index.html, 2020-11-10-Post-Template.html & Backup-Post-Template.html
+- <b>NOT DONE</b>: I will update the guide to fit my edite
 
 ### ...........................
 
