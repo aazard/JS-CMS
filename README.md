@@ -5,7 +5,7 @@
 - <b>NOT DONE</b>: I will update the guide to fit my edits, so its a simple/easy process to edit & add menu entry.
 - <b>NOT DONE</b>: about.html, archive.html, not-found.html, & 2020-11-10-HTML-cheat-sheet.html.
 - <b>NOT DONE</b>: Full, tested, CSS "Themes", combined from both IMP! & Zonelet.
-- <b>NOT DONE</b>: Auto "Post Array" Title/Date "nameing", Currently you need to type H1-Title & Date line, in IMP! 
+- <b>NOT DONE</b>: Auto "Post Array" Title/Date "naming", Currently you need to type H1-Title & Date line, in IMP! 
 #### Issues
 - I need to play with CSS files. Currently I am only testing with the default zonelet "style.css" file.
 - Issue matching IMP!'s footer to Zonelet's footer, have moved effected content to header (it works) <b>until I solve</b>.
