@@ -8,6 +8,7 @@ I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mord
 ### Plans
 - Add code to "imp.js", so it automatically updates the "post array" of the "script.js" file, making the process more seemless
 - Change the "View CSS location" so its a "drop down" menu, that populates from styles folder, with option for manual text entry of location
+- Add a "more direct" editor (word processor like), as a "non" markdown or html option 
 ## Why?
 Well... Have you ever had a host that didnt support PHP/databases (A POPULAR & TARGET example would be Neocities)?
 
