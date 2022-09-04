@@ -3,7 +3,7 @@
 I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mordern" CMS's!
 - Markdown & Python are more my speed... 
 - But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
-- Made with 2 ".js" files, "imp.js" (The "CMS") & "script.js" (The "Menu Engine")
+- Made with two (2) ".js" files, "imp.js" (The "CMS") & "script.js" (The "Menu Engine")
 ## Why?
 Well... Have you ever had a host that didnt support PHP/databases (A POPULAR & TARGET example would be Neocities)?
 
