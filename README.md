@@ -4,7 +4,7 @@
 - DONE: Index.html, Backup-Index.html, 2020-11-10-Post-Template.html & Backup-Post-Template.html.
 - <b>NOT DONE</b>: I will update the guide to fit my edits, so its a simple/easy process to edit & add menu entry.
 - I need to play with CSS files. Currently I am only testing with the default zonelet "style.css" file.
-- Having issues 100% matching IMP!'s footer to Zonelet's footer, have moved effected content to header (which works) <b>until I solve</b>. 
+- Issue 100% matching IMP!'s footer to Zonelet's footer, have moved effected content to header (which works) <b>until I solve</b>. 
 - THIS PROJECCT IS TWO NOTCHES OVER MY CURRENT SKILL LEVEL :sweat_smile:
 #### CLONE REPO FOR MOST CURRENT VERSION!
 ## License
