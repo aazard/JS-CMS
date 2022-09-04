@@ -1,6 +1,6 @@
 # JS-CMS - The Javascript CMS, WITH THEMES!
 ## CLONE REPO FOR MOST CURRENT VERSION!
-I dont really know HTML/CSS that well, nevermind JS (javascript)...
+I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mordern" CMS's!
 - Markdown & Python are more my speed... 
 - But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
 ## Why?
