@@ -3,9 +3,9 @@
 #### WIP (Work In Progress) WARNING: I am editing html files from Zonelet to be 100% inline/compatible with IMP!
 - DONE: Index.html, Backup-Index.html, 2020-11-10-Post-Template.html & Backup-Post-Template.html.
 - <b>NOT DONE</b>: I will update the guide to fit my edits, so its a simple/easy process to edit & add menu entry.
-
 #### CLONE REPO FOR MOST CURRENT VERSION!
-
+---
+---
 # JS-CMS - The Javascript CMS, WITH THEMES!
 I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mordern" CMS's!
 - Markdown & Python are more my speed... 
@@ -40,11 +40,13 @@ There are a few, but for the target users, <b>HTML/CSS learners looking to uploa
 ### &
 ### IMP! "It's My Page!" Javascript CMS
 - Home/Download: https://github.com/girobusan/imp
-
-### **Getting Started With Zonelets & IMP** ... OR:
+---
+---
+# **Getting Started With Zonelets & IMP** ... OR:
 ![](https://149455152.v2.pressablecdn.com/wp-content/uploads/2013/10/code-monkey-save-world-featured.jpg)
 Ok.. saving the world might be a little exaggerated.. BUT, "#Learn to code"
-## **Getting Started With IMP!**
+
+# **Getting Started With IMP!**
 
 **How it works**
 
@@ -72,9 +74,11 @@ Descent browser, Firefox or Chrome preferred (tested). If you've updated your br
 
 -   If you use NoScript extension, you'd need to disable it for IMP! page (*not* just set to TRUSTED mode, but disable all restrictions completely)
 
-**.....................................**
+---
+# More IMP! Guides To Come! For now lets move on to Zonelet.
+---
 
-## **Getting Started With Zonelets**
+# **Getting Started With Zonelets**
 
 To get started with Zonelets, follow the text on this site or the video tutorial playlist on YouTube!
 
