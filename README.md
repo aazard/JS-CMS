@@ -29,7 +29,7 @@ Mostly MIT, respecting sources licenses:
 #### Get This: (Defualt Zonelet CSS, Gutenburg-like & Other CSS styles/themes comming soon!)
 ![IMP-Zonelet-Result-home](https://user-images.githubusercontent.com/45321972/188330095-25d69d09-34f1-47f7-820c-91b2ffc9ce44.png)
 #### & (Defualt Zonelet CSS, Gutenburg-like & Other CSS styles/themes comming soon!)
-![IMP-Zonelet-Result](https://user-images.githubusercontent.com/45321972/188330030-8cd3dd0b-9c3f-424e-b149-b3b29a205d54.png)
+![IMP-Zonelet-Result](https://user-images.githubusercontent.com/45321972/188330804-8d46ab6c-7a5c-4698-aeb5-87ffd54f55d6.png)
 #### With Gutenburg-like CSS...
 ![opera_DpERs0fCcw](https://user-images.githubusercontent.com/45321972/188330598-8e84d628-fec0-4fd4-9b06-3fe401c38861.png)
 ## Intro:
