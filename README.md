@@ -6,7 +6,7 @@
 - I need to play with CSS files. Currently I am only testing with the default zonelet "style.css" file.
 - Issue matching IMP!'s footer to Zonelet's footer, have moved effected content to header (it works) <b>until I solve</b>. 
 - THIS PROJECCT IS TWO NOTCHES OVER MY CURRENT SKILL LEVEL :sweat_smile:
-- Its also my "1st real", public, coding project <b>(& I'm 41)</b>
+- Its also my "1st real", public, coding project <b>(& I'm 41)</b>. Evertthing else I have done was art or "kit packaging" 
 #### CLONE REPO FOR MOST CURRENT VERSION!
 ## License
 Mostly MIT, respecting sources licenses: 
