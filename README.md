@@ -24,7 +24,10 @@ Mostly MIT, respecting sources licenses:
 ---
 ---
 # JS-CMS - The Low-Fi, Client-Side, Javascript CMS, With CSS Themes!
+#### Use These:
 ![JS-CMS](https://user-images.githubusercontent.com/45321972/188326105-0573eae6-1d8c-4a75-9105-d00338b77957.png)
+#### Get This:
+![](https://zonelets.net/images/tut_livepage.PNG)
 ## Intro:
 I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mordern" CMS's! Markdown & Python are more my speed. 
 - But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
