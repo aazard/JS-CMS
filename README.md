@@ -5,6 +5,8 @@ I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mord
 - But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
 - Made with two (2) ".js" files, "imp.js" (The "CMS") & "script.js" (The "Menu Engine").
 - Only "script.js" needs to "live" online (by uploaded with site's files, to host).
+### Plans
+- Add code to "imp.js", so it automatically the "post array" of "updates script.js", making the process more seemless
 ## Why?
 Well... Have you ever had a host that didnt support PHP/databases (A POPULAR & TARGET example would be Neocities)?
 
