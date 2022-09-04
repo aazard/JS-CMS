@@ -8,10 +8,12 @@
 - THIS PROJECCT IS TWO NOTCHES OVER MY CURRENT SKILL LEVEL :sweat_smile:
 #### CLONE REPO FOR MOST CURRENT VERSION!
 ## License
-Mostly MIT, respecting sources licenses: For ALL, legal, private uses, JS-CMS is FOSS 
+Mostly MIT, respecting sources licenses: 
+- Laymen's terms: JS-CMS is FOSS (Free Open Source Software)
 - Zonelets is MIT licensed 
 - IMP! is MIT licensed, except:
 - CC BY-CA - IMP!'s default theme based on Cutenberg (which is licensed under CC BY-CA)
+Project is 100% HTML/CSS/JS and its all 100% transparent. Please feel free to inspect, copy or edit.
 ---
 ---
 # JS-CMS - The Low-Fi, Client-Side, Javascript CMS, With CSS Themes!
