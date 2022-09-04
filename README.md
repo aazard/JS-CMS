@@ -27,6 +27,7 @@ I dont really know HTML/CSS that well, nevermind JS (javascript)...I blame "mord
 - Made with two (2) ".js" files, "imp.js" (The, single page, "Client-side" CMS) & "script.js" (The "Blogging Engine", powering on menus/etc.).
 - Only "script.js" needs to "live" online ("Server-side", by uploaded with site's files, to host). Remember: As above, its powers Menus/Etc.
 - "Theme" support via custom CSS linking per page (or as default via style.css). There are just under 15 "themes", currently.
+- Fully supports add in (it doesnt have any currently) json/xml flat file databases
 
 ### Plans
 - Add code to "imp.js", so it automatically updates the "post array" of the "script.js" file,... <b><u>IS THIS EVEN POSSIBLE?</u></b>
