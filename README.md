@@ -1,4 +1,4 @@
-# Note: This is the work of others, stiched together/edited by me
+# This is the work of others, stiched together/edited by me
 ## JS-CMS - Project Status Sticky 
 
 #### WIP (Work In Progress) WARNING: I am editing html files from Zonelet to be 100% inline/compatible with IMP!
