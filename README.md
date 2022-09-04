@@ -1,2 +1,2 @@
-# JS-CMMS
+# JS-CMS
 Javascript CMS Zonelet + IMP!
