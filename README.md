@@ -2,7 +2,7 @@
 ## JS-CMS - Project Status Sticky 
 #### WIP (Work In Progress) WARNING: I am editing html files from Zonelet to be 100% inline/compatible with IMP!
 - DONE: Index.html, Backup-Index.html, 2020-11-10-Post-Template.html & Backup-Post-Template.html.
-- <b>NOT DONE</b>: I will update the guide to fit my edits, so its a simple/easy process to edit & add menu entry.
+- <b>NOT DONE</b>: Update the guide, to fit my edits. So its a simple/easy process to edit & add menu entry.
 - <b>NOT DONE</b>: about.html, archive.html, not-found.html, & 2020-11-10-HTML-cheat-sheet.html.
 - <b>NOT DONE</b>: Full, tested, CSS "Themes", combined from both IMP! & Zonelet.
 - <b>NOT DONE</b>: Auto "Post Array" Title/Date "naming", Currently you need to type H1-Title & Date line, in IMP! 
