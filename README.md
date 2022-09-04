@@ -1,6 +1,7 @@
 # JS-CMS - The Javascript CMS, WITH THEMES!
 I dont really know HTML/CSS that well, nevermind JS (javascript)...
-- Markdown & Python is more my speed... But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
+- Markdown & Python is more my speed... 
+- But I was able to cobble this Frankenstien, <b>OF OTHER PEOPLE'S WORK!</b>, together.
 ## Why?
 Well... Have you ever had a host that didnt support PHP/databases (A POPULAR & TARGET example would be Neocities)?
 
@@ -8,6 +9,7 @@ Where you couldnt run Wonder CMS, let alone Grav CMS... forget about WordPress C
 - Its easy: ONE TINY "script.js" edit in notepad per post (so its "codeless") & CSS linking is "hand held".
 - Its cheaper (ITS FREE!), easier & more accessable than Node.js based CMS's.
 - For beginners: This beats "free-hand" HTML/CSS, for ease of entry & speed, at least.
+This is also a better learning tool than a "fiddle" as it produces IRL results, on Neocities/Etc.
 ## What About Other "Common" Options?
 There are a few, but for the target users, <b>HTML/CSS learners looking to upload to Neocities</b>, they arnt as attractive or useful, IMHO.
 - Publii CMS is over all more cmplicated (Desktop install, files may need "reordering", depending on target web host).
