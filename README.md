@@ -44,7 +44,7 @@ There are a few, but for the target users, <b>HTML/CSS learners looking to uploa
 ---
 # **Getting Started With Zonelets & IMP** ... OR:
 ![](https://149455152.v2.pressablecdn.com/wp-content/uploads/2013/10/code-monkey-save-world-featured.jpg)
-<i>Caption: Ok.. saving the world might be a little exaggerated.. BUT, "#Learn to code"</i>
+<i>Caption: Ok.. saving the world might be a little exaggerated.. BUT, <b>"#Learn to code"</b></i>
 
 ---
 ---
